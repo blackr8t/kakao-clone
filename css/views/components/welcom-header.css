@@ -1,0 +1,21 @@
+.welcom-header {
+	margin-top: 90px;
+	/* text-align: center; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.welcom-header__title {
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.welcom-header__text {
+	width: 60%;
+	opacity: 0.5;
+	margin-bottom: 90px;
+	font-weight: 600;
+	text-align: center;
+}
