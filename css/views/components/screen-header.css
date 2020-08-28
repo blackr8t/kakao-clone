@@ -2,14 +2,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 50px;
+	padding: 50px 30px;
+	padding-bottom: 20px;
 }
 
 .screen-header__title {
 	font-size: 30px;
 	font-weight: 700;
 }
-
 
 
 .screen-header__icons span {

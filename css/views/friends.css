@@ -1,2 +1,43 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+
+#friends-display-link {
+	text-align: center;
+	display: block;
+	background-color: #FAFAFA;
+	padding: 15px 0px;
+
+}
+
+#friends-display-link i {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+#friends-display-link span {
+	color: #595959;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.friends-screen {
+	padding: 0px 10px;
+}
+
+.friends-screen__channel {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: var(--main-border);
+	padding: 10px 5px;
+	margin: 0px 20px;
+}
+
+.friends-screen__channel-header {
+	color: rgba(0, 0, 0, 0.6);
+	font-weight: 600;
+}
+
+.friends-screen__channel-icon {
+	color: rgba(0, 0, 0, 0.6);
+}

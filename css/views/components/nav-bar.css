@@ -20,16 +20,6 @@
 }
 
 .nav-bar__notification {
-	background-color: var(--nav-notification);
-	width: 20px;
-	height: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 12px;
-	font-weight: 600;
-	color: white;
-	border-radius: 10px;
 	position: absolute;
 	left: 10px;
 	bottom: 10px;

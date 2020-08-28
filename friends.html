@@ -29,41 +29,97 @@
 		<div class="screen-header__icons">
 			<span><i class="fas fa-search fa-lg"></i></span>
 			<span><i class="fas fa-music fa-lg"></i></span>
-			<span><i class="fas fa-cog fa-lg"></i></span>
+			<span><a href="settings.html">
+					<i class="fas fa-cog fa-lg"></i>
+				</a></span>
 		</div>
 	</header>
+
+	<a id="friends-display-link" href="">
+		<i class="fas fa-info-circle"></i> <span>Friends'Names Display</span> <i class="fas fa-angle-right fa-sm"></i>
+	</a>
+
+	<main class="friends-screen">
+		<div class="user-component">
+			<div class="user-component__column">
+				<img class="user-component__avatar user-component__avatar--xl"
+					src="https://avatars2.githubusercontent.com/u/7552038?s=60&v=4" alt="avatar">
+				<div>
+					<div class="user-component__text">
+						<h4 class="user-component__title">SJ</h4>
+						<!-- <h6 class="user-component__subtitle">this text subtitle</h6> -->
+					</div>
+				</div>
+			</div>
+			<div class="user-component__column"></div>
+		</div>
+
+		<div class="friends-screen__channel">
+			<div class="friends-screen__channel-header">
+				<span>Channel</span>
+			</div>
+			<div class=friends-screen__channel-icon>
+				<i class="fas fa-angle-up"></i>
+			</div>
+		</div>
+
+		<div class="user-component">
+			<div class="user-component__column">
+				<img class="user-component__avatar user-component__avatar--sm" src="css/icons/kakao-channel.png"
+					alt="kakao channel">
+				<div>
+					<div class="user-component__text user-component__text--not-bold">
+						<h4 class="user-component__title">Channel</h4>
+						<!-- <h6 class="user-component__subtitle">this text subtitle</h6> -->
+					</div>
+				</div>
+			</div>
+			<div class="user-component__column">
+				<div>
+					<span>2</span>
+					<i class="fas fa-angle-right"></i>
+				</div>
+
+			</div>
+		</div>
+
+
+
+	</main>
+
 
 	<nav class="nav-bar">
 		<ul class="nav-bar__list">
 
 			<li class="nav-bar__btn">
-				<a class="nav-bar__link" href="#">
+				<a class="nav-bar__link" href="friends.html">
 
 					<i class="fas fa-user fa-lg"></i>
 				</a>
 			</li>
 
 			<li class="nav-bar__btn">
-				<a class="nav-bar__link" href="#">
-					<span class="nav-bar__notification">2</span>
+				<a class="nav-bar__link" href="chats.html">
+					<span class="nav-bar__notification badge">2</span>
 					<i class="far fa-comment fa-lg"></i>
 				</a>
 			</li>
 
 			<li class="nav-bar__btn">
-				<a class="nav-bar__link" href="#">
+				<a class="nav-bar__link" href="find.html">
 					<i class="fas fa-search fa-lg"></i>
 				</a>
 			</li>
 
 			<li class="nav-bar__btn">
-				<a class="nav-bar__link" href="#">
+				<a class="nav-bar__link" href="more.html">
 					<span class="nav-bar__notification_empty"> </span>
 					<i class="fas fa-ellipsis-h fa-lg"></i>
 				</a>
 			</li>
 		</ul>
 	</nav>
+
 
 	<script src="https://kit.fontawesome.com/6cae044631.js" crossorigin="anonymous"></script>
 </body>
