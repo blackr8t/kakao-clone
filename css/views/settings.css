@@ -1,0 +1,22 @@
+@import "components/alt-screen-header.css";
+
+
+.settings-setting {
+	padding: 20px 0px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.settings-setting i {
+	margin-right: 20px;
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+.settings-setting__subtitle {
+	opacity: 0.7;
+	margin-right: 5px;
+}

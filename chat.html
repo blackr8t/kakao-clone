@@ -4,11 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Settings</title>
+	<title>Chat</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body id="chat-screen">
 	<div class="status-bar">
 		<div class="status-bar__column">
 			<i class="fas fa-wifi"></i>
@@ -32,47 +32,57 @@
 
 		</div>
 		<div class="alt-header__column">
-			<h1 class="alt-header__title">Settings</h1>
+			<h1 class="alt-header__title">Kakao Talk</h1>
 		</div>
 		<div class="alt-header__column">
-			<i class="fas fa-search fa-lg"></i>
+			<span><i class="fas fa-search fa-lg"></i></span>
+			<span><i class="fas fa-bars fa-lg"></i></span>
 		</div>
+
 	</header>
 
-	<main class="screen">
+	<main class="screen main-chat">
 
-		<ul class="settings-list">
-			<li class="settings-setting">
-				<div class="settings-setting__column">
-					<i class="fas fa-bullhorn"></i>
-					<span>Notices</span>
+		<div class="chat__timestamp">
+			2020년 8월 31일
+		</div>
+
+		<div class="message-row">
+			<img src="css/icons/kakao-channel.png" alt="">
+			<div class="message-row__content">
+				<span class="message__author">Kakao Talk</span>
+				<div class="message__info">
+					<span class="message__bubble">안녕하세요!</span>
+					<span class="message__time">21:27</span>
 				</div>
+			</div>
+		</div>
 
-			</li>
-			<li class="settings-setting">
-				<div class="settings-setting__column">
-					<i class="fas fa-flask"></i>
-					<span>Kakao Lab</span>
+		<div class="message-row message-row--own">
+			<div class="message-row__content">
+				<div class="message__info">
+					<span class="message__bubble">안녕하세요! 반갑습니다 :)</span>
+					<span class="message__time">21:28</span>
 				</div>
-
-			</li>
-			<li class="settings-setting">
-				<div class="settings-setting__column">
-					<i class="fas fa-info-circle"></i>
-					<span>Version</span>
-
-				</div>
-				<div class="settings-setting__column">
-					<span class="settings-setting__subtitle">Lastest Version</span>
-				</div>
-
-			</li>
-
-		</ul>
+			</div>
+		</div>
 
 	</main>
 
-	<nav class="nav-bar">
+	<form action="" class="reply">
+		<div class="reply__column">
+			<i class="far fa-plus-square fa-lg"></i>
+		</div>
+		<div class="reply__column">
+			<input type="text" placeholder="메세지를 입력하세요.">
+			<i class="far fa-smile"></i>
+			<button>
+				<i class="fas fa-arrow-up"></i>
+			</button>
+		</div>
+	</form>
+
+	<!-- <nav class="nav-bar">
 		<ul class="nav-bar__list">
 
 			<li class="nav-bar__btn">
@@ -102,7 +112,7 @@
 				</a>
 			</li>
 		</ul>
-	</nav>
+	</nav> -->
 
 
 	<script src="https://kit.fontawesome.com/6cae044631.js" crossorigin="anonymous"></script>
